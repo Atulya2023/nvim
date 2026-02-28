@@ -18,6 +18,7 @@ return {
             'vim',
             'vimdoc',
             'c',
+            'cpp',
             'query',
             -- 'dart',
         })
@@ -26,6 +27,7 @@ return {
             pattern = {
                 'python',
                 'c',
+                'cpp',
                 'verilog',
             },
             callback = function()

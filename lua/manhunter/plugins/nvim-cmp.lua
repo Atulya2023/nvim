@@ -68,7 +68,15 @@ return {
                 fallback()
             end
         end, { "i", "s" }),
-      }),
+        -- Inside nvim-cmp.lua, within the mapping table
+        ["<Up>"] = cmp.mapping(function(fallback)
+            fallback()
+        end, { "i", "s" }),
+        ["<Down>"] = cmp.mapping(function(fallback)
+            fallback()
+        end, { "i", "s" }),
+
+    }),
       -- sources for autocompletion
       sources = cmp.config.sources({
         { name = "nvim_lsp" },

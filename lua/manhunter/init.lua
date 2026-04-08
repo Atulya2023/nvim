@@ -10,4 +10,9 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
-vim.cmd("colorscheme onedark_dark")
+vim.opt.scrolloff = 999
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+-- vim.cmd("colorscheme onedark_dark")
+-- vim.cmd("colorscheme material-oceanic")
+vim.cmd("colorscheme tokyonight")

@@ -30,4 +30,10 @@ return {
             -- vim.cmd("colorscheme vague")
         end
     },
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
 }

@@ -13,6 +13,7 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 999
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+-- vim.opt.mouse = ""
 -- vim.cmd("colorscheme onedark_dark")
 -- vim.cmd("colorscheme material-oceanic")
 vim.cmd("colorscheme tokyonight")
